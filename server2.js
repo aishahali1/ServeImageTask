@@ -1,10 +1,10 @@
 import { createServer } from 'http';
 const server = createServer((req, res) => {
 
-         res.writeHead(303, 
+         res.writeHead(301, 
           { 
             'Content-Type': 'text/plain',
-            location: `https://www.geeksforgeeks.org/node-js/how-to-fetch-images-from-node-js-server/`
+            'location': `https://www.geeksforgeeks.org/node-js/how-to-fetch-images-from-node-js-server/`
           });
         
 });
